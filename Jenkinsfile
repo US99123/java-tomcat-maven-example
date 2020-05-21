@@ -12,5 +12,11 @@ pipeline {
                 echo 'hello utsav'
             }
         }
+        
+        stage ('deploy'){
+            steps{
+                echo 'artifacts deployed'
+            }
+        }
     }
 }
